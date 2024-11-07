@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 import { performance } from 'perf_hooks';
+import * as chromeLauncher from 'chrome-launcher';
 import lighthouse from 'lighthouse';
-import chromeLauncher from 'chrome-launcher';
 import { writeFile } from './file-utils.mjs';
 import { formatAsCSV, formatAsHTML } from './format-utils.mjs';
 import { readPastRunsFile, writePastRunsFile, generateIndexHTML } from './index-utils.mjs';
