@@ -17,7 +17,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const pastRunsFile = './results/pastRuns.json';
 const indexFile = './results/index.html';
-const port = 3002;
+const port = 3005;
 const wsPort = 3008;
 const reportDirectory = './results';
 

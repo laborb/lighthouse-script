@@ -32,12 +32,12 @@ This is a Lighthouse script that automates performance tests for multiple webpag
 
 `node main.js`
 
-2. The script will launch a local server at `http://localhost:3000`. Open this address in your browser to view the Lighthouse test results.
+2. The script will launch a local server at `http://localhost:3005`. Open this address in your browser to view the Lighthouse test results.
 
 ![Overview](overview.png)
 
 
-3. To add or edit URLs for testing, go to `http://localhost:3000/urls-editor`. Edit the URLs and save your changes.
+3. To add or edit URLs for testing, go to `http://localhost:3005/urls-editor`. Edit the URLs and save your changes.
 
 4. To rerun the tests for the updated URLs, click the "Rerun Tests" button on the main page.
 
