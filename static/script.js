@@ -1,4 +1,4 @@
-const socket = new WebSocket('ws://lighthouse.laborb.de');
+const socket = new WebSocket('wss://lighthouse.laborb.de');
 
 socket.onopen = (event) => {
   console.log('A WebSocket connection was opened');
